@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, user-scalable=0, viewport-fit=cover"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="">
+  
+  <title>Frontend Mentor | Rest-Countries-api</title>
+</head>
+<body>
+  <header>
+    <nav>
+    <a href=""><h4 id="heading">Where in the world?</h4></a>
+    <div class="page-mode">
+      <img src="design/moon.svg" alt="Page Mode" id="moon-logo">
+      <h6 id="mode">Dark Mode</h6>
+    </div>
+  </nav>
+  </header>
+
+  <section class="country-details">
+    <div class="country-content">
+
+      <button class="back-button"><img src="design/long-arrow.svg">Back</button>
+      
+      <div class="country-box-info">
+        <img src="https://flagcdn.com/w320/al.png" alt="" class="country-flag">
+
+        <div class="country-detail-information">
+          <h3 class="country-detail-name">Belgium</h3>
+
+          <div class="country-detail-info-box">
+          <ul>
+            <li><strong>Native Name:</strong><span id="detail-native-name"> Belgium</span></li>
+            <li><strong>Population:</strong><span id="detail-population"> 123, 32,32</span></li>
+            <li><strong>Region:</strong><span id="detial-region"> Europe</span></li>
+            <li><strong>Sub Region:</strong><span id="detail-sub-region"> Getorgia</span></li>
+            <li><strong>Capital:</strong><span id="detail-Captial"> Tbilsi</span></li>
+          </ul>
+
+          <ul>
+            <li><strong>Top Level Domain:</strong><span id="detail-Domain"> .DE</span></li>
+            <li><strong>currencies:</strong><span id="detail-currencies"> Euro</span></li>
+            <li><strong>languages:</strong><span id="detail-languages"> Dutch, Georgian</span></li>
+          </ul>
+        </div>
+
+        <div class="border-countries">
+          <h4 class="border-country-title">Border Countries:</h4>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="filters">
+   <span><input type="search" placeholder="search for a country..." id="search"></span>
+
+   <div class="region-filter">
+
+   <div class="filter-box">
+    <h3 id="filter-box-name">filter by region</h3>
+    <img src="design/arrow.svg">
+
+   </div>
+
+   <ul class="regions">
+    <li class="region">All</li>
+    <li class="region">Africa</li>
+    <li class="region">Americas</li>
+    <li class="region">Asia</li>
+    <li class="region">Europe</li>
+    <li class="region">Oceania</li>
+  </ul>
+
+</div>
+  </section>
+
+  <section class="countries">
+
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
