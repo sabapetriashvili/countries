@@ -321,6 +321,8 @@
       padding-left: 65px;
       font-size: 14px;
       outline: 1px solid var(--More-Dark-Blue);
+      box-shadow: none;
+      -webkit-box-shadow: none;
     }
 
     #search::placeholder {
