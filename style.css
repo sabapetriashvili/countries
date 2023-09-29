@@ -320,8 +320,7 @@
       width: 250px;
       padding-left: 65px;
       font-size: 14px;
-      box-shadow: 0 0 3px 3px rgb(0 0 0/3%);
-      -webkit-box-shadow: 0 0 3px 3px rgb(0 0 0/3%);
+      outline: black;
     }
 
     #search::placeholder {
